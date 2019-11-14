@@ -13,7 +13,7 @@
 # "$dir/install"
 # rm -rf "$dir"
 # 
-mkdir -p /data /etc/imageserver /var/log/imageserver
+mkdir -p /data /etc/imageserver /var/log/imageserver /etc/ssl/imageserver
 touch /etc/issue.net
 touch /etc/mdb.json
 touch /etc/ssl/imageserver/cert.pem
