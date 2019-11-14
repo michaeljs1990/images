@@ -20,7 +20,7 @@ touch /etc/ssl/imageserver/cert.pem
 touch /etc/ssl/imageserver/key.pem
 chmod a-w /data
 # 
-chown -R imageserver /etc/imageserver /etc/ssl/imageserver /var/log/imageserver
+# chown -R imageserver /etc/imageserver /etc/ssl/imageserver /var/log/imageserver
 # 
 # # Remove noise.
 # rm -f /etc/motd
