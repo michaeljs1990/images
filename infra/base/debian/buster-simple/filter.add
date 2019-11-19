@@ -1,5 +1,2 @@
 /data(|/.*)$
 /home(|/.*)$
-/var/log(|/.*)$
-/var/spool(|/.*)$
-/var/mail(|/.*)$
