@@ -6,3 +6,8 @@
 /var/log/dpkg.log
 /var/mail
 /var/spool/mail
+/var/log/bootstrap.log
+/var/log/btmp
+/var/log/wtmp
+/var/log/lastlog
+/var/log/faillog
