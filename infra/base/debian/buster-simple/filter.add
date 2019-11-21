@@ -1,4 +1,0 @@
-/data(|/.*)$
-/var/log/.*
-/var/mail
-/var/spool/mail
