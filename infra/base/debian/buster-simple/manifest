@@ -1,7 +1,3 @@
 {
-  "SourceImage": "bootstrap/debian/buster",
-  "FilterLines": [
-    "/var/log/*",
-    "/var/spool/mail"
-  ]
+  "SourceImage": "bootstrap/debian/buster"
 }
