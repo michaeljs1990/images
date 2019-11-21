@@ -1,2 +1,2 @@
 /data(|/.*)$
-/var/log/apt/term.log
+/var/log/.*
