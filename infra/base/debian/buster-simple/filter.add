@@ -1,13 +1,4 @@
 /data(|/.*)$
-/var/log/alternatives.log
-/var/log/apt/eipp.log.xz
-/var/log/apt/history.log
-/var/log/apt/term.log
-/var/log/dpkg.log
+/var/log/.*
 /var/mail
 /var/spool/mail
-/var/log/bootstrap.log
-/var/log/btmp
-/var/log/wtmp
-/var/log/lastlog
-/var/log/faillog
