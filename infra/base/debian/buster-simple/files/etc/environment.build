@@ -1,0 +1,8 @@
+# Set the default salted, encrypted root password.
+default_root_password='!bogus'
+
+# Set the URL prefix where Dominator component tarballs are located.
+dominator_components_directory=file:///n/binaries/Dominator
+
+# Set the URL prefix where the health-agent tarball is located.
+health_agent_directory=file:///n/binaries/health-agent

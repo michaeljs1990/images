@@ -1,0 +1,21 @@
+#! /bin/bash --posix
+#
+# This script is a wrapper around the wget utility, adding support for the
+# file:// URL scheme.
+# Usage: get-url url outfile
+
+set -eu
+set -o pipefail
+
+readonly url="$1"
+readonly outfile="$2"
+
+if [ "${url:0:7}" = "file://" ]; then
+    if [ "$outfile" = '-' ]; then
+	exec cat "${url:7}"
+    else
+	exec cp -p "${url:7}" "$outfile"
+    fi
+else
+    exec wget -q -O "$outfile" "$url"
+fi

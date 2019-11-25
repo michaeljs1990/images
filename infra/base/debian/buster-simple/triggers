@@ -1,0 +1,31 @@
+[
+    {
+        "MatchLines": [
+            "/usr/sbin/cron"
+        ],
+        "Service": "cron"
+    },
+    {
+        "MatchLines": [
+            "/etc/health-agent/tests[.]d/.*",
+            "/lib/systemd/system/health-agent[.]service",
+            "/usr/local/sbin/health-agent"
+        ],
+        "Service": "health-agent"
+    },
+    {
+        "MatchLines": [
+            "/etc/ntp[.]conf",
+            "/usr/sbin/ntpd"
+        ],
+        "Service": "ntp"
+    },
+    {
+        "MatchLines": [
+            "/etc/logrotate[.]d/rsyslog",
+            "/etc/rsyslog[.].*",
+            "/usr/sbin/rsyslogd"
+        ],
+        "Service": "rsyslog"
+    }
+]

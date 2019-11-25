@@ -1,0 +1,5 @@
+---
+type: dns
+probe-freq: 10
+specs:
+        hostname: timehost

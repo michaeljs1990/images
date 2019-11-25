@@ -1,0 +1,5 @@
+---
+type: pid
+probe-freq: 10
+specs:
+  pathname: /var/run/dhclient.eth0.pid

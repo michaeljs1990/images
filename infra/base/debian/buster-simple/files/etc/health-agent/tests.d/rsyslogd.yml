@@ -1,0 +1,6 @@
+---
+type: dial
+probe-freq: 10
+specs:
+  address: /dev/log
+  network: unixgram

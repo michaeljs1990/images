@@ -1,0 +1,31 @@
+/var/log/audit/audit.log
+/var/log/mail.info
+/var/log/mail.warn
+/var/log/mail.err
+/var/log/mail.log
+/var/log/daemon.log
+/var/log/kern.log
+/var/log/auth.log
+/var/log/user.log
+/var/log/lpr.log
+/var/log/cron.log
+/var/log/rsyslog.log
+/var/log/debug
+/var/log/messages
+/var/log/syslog
+{
+    daily
+    maxsize 10M
+    maxage 7
+    rotate 7
+    dateext
+    dateformat -%Y%m%d-%s
+    copytruncate
+    compress
+    missingok
+    notifempty
+    sharedscripts
+    postrotate
+		reload rsyslog >/dev/null 2>&1 || true
+    endscript
+}
